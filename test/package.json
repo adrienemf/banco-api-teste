@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "login.test.js",
+  "scripts": {
+    "test": "mocha .test/**/*.test.js --timeout=200000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "mocha": "^12.0.3",
+    "supertest": "^7.3.1"
+  }
+}
